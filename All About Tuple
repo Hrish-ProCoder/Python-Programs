@@ -38,3 +38,26 @@ print(type(my_tuple))  # <class 'tuple'>
 # Parentheses is optional
 my_tuple = "hello",
 print(type(my_tuple))  # <class 'tuple'>
+
+
+
+
+#ACCESSING TUPLES
+
+1. Indexing
+
+# Accessing tuple elements using indexing
+my_tuple = ('p','e','r','m','i','t')
+
+print(my_tuple[1]) 
+print(my_tuple[4]) 
+
+# IndexError: list index out of range
+# print(my_tuple[6])
+
+# nested tuple
+n_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
+
+# nested index
+print(n_tuple[0][2])       # for 'u'
+print(n_tuple[2][2])       # 3
