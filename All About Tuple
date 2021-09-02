@@ -61,3 +61,10 @@ n_tuple = ("mouse", [8, 4, 6], (1, 2, 3))
 # nested index
 print(n_tuple[0][2])       # for 'u'
 print(n_tuple[2][2])       # 3
+
+2. Negative Indexing
+
+my_tuple = ('p', 'e', 'r', 'm', 'i', 't')
+
+print(my_tuple[-2])
+print(my_tuple[-4])
