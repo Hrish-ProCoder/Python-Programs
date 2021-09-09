@@ -77,3 +77,10 @@ print(my_tuple[1:4])
 print(my_tuple[:-7])
 print(my_tuple[7:])
 print(my_tuple[:])
+
+# Changing tuple values
+
+my_tuple = (4, 2, 3, [6, 5])
+my_tuple[3][0] = 9
+print(my_tuple)
+# Output: (4, 2, 3, [9, 5])
