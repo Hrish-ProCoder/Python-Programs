@@ -85,7 +85,7 @@ my_tuple[3][0] = 9
 print(my_tuple)
 #Output: (4, 2, 3, [9, 5])
 
-# Concatenation
+# Concatenations
 print((1, 2, 3) + (4, 5, 6))
 
 # Repeat
