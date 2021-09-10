@@ -84,3 +84,10 @@ my_tuple = (4, 2, 3, [6, 5])
 my_tuple[3][0] = 9
 print(my_tuple)
 #Output: (4, 2, 3, [9, 5])
+
+# Concatenation
+print((1, 2, 3) + (4, 5, 6))
+
+# Repeat
+# Output: ('Repeat', 'Repeat', 'Repeat')
+print(("Repeat",) * 3)
