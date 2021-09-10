@@ -91,3 +91,9 @@ print((1, 2, 3) + (4, 5, 6))
 # Repeat
 # Output: ('Repeat', 'Repeat', 'Repeat')
 print(("Repeat",) * 3)
+
+# Deleting tuples
+my_tuple = ('y', 'e', 'l', 'l', 'o', 'w')
+
+del my_tuple
+print(my_tuple)
