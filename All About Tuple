@@ -110,7 +110,7 @@ print('w' in my_tuple)
 
 print('b' not in my_tuple)
 
-#Iterating Through a Tuple
+#Iterating Through a Tuple using for loop
 
 for name in ('Ram', 'Sham'):
     print("Hello", name)
