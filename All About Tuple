@@ -104,3 +104,13 @@ my_tuple = ('y', 'e', 'l', 'l', 'o', 'w',)
 
 print(my_tuple.count('l'))
 print(my_tuple.index('o'))
+
+# In and Not in Keywords
+print('w' in my_tuple)
+
+print('b' not in my_tuple)
+
+#Iterating Through a Tuple
+
+for name in ('Ram', 'Sham'):
+    print("Hello", name)
