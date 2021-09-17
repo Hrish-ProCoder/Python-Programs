@@ -97,3 +97,10 @@ my_tuple = ('y', 'e', 'l', 'l', 'o', 'w')
 
 del my_tuple
 print(my_tuple)
+
+#Tuple Methods
+
+my_tuple = ('y', 'e', 'l', 'l', 'o', 'w',)
+
+print(my_tuple.count('l'))
+print(my_tuple.index('o'))
