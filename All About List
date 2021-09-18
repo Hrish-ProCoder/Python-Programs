@@ -5,3 +5,16 @@ my_list = ["Hi", 6.2]
 
 # nested list
 my_list = ["mouse", [8, 4, 6], ['a']]
+
+# Access List Elements
+# List Indexing
+my_list = ['y', 'e', 'l', 'l', 'o', 'w']
+print(my_list[0]) 
+print(my_list[2]) 
+print(my_list[4]) 
+
+# Nested List
+n_list = ["Happy", [2, 0, 1, 5]]
+
+# Nested indexing
+print(n_list[1][3])
