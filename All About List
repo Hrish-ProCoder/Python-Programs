@@ -2,3 +2,6 @@
 my_list = []
 my_list = [1, 2, 3]
 my_list = ["Hi", 6.2]
+
+# nested list
+my_list = ["mouse", [8, 4, 6], ['a']]
