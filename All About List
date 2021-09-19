@@ -24,3 +24,11 @@ my_list = ['y', 'e', 'l', 'l', 'o', 'w']
 print(my_list[-1])
 print(my_list[-5])
 print(my_list[-3])
+
+# List slicing in Python
+
+my_list = ['e','n','c','y','c','l','o','p','e','d','i','a']
+print(my_list[2:5])
+print(my_list[:-5])
+print(my_list[5:])
+print(my_list[:])
