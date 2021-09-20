@@ -54,3 +54,8 @@ odd = [1, 3, 5]
 print(odd + [9, 7, 5])
 # Repeting List
 print(["Hello"] * 3)
+
+# insert() method
+odd = [1, 9]
+odd.insert(1,3)
+print(odd)
