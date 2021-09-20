@@ -68,3 +68,8 @@ del my_list[1:5]
 print(my_list)
 del my_list
 
+# Remove method
+my_list = ['e','n','c','y','c','l','o','p','e','d','i','a']
+my_list.remove('d')
+# Output without d
+print(my_list)
