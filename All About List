@@ -59,3 +59,12 @@ print(["Hello"] * 3)
 odd = [1, 9]
 odd.insert(1,3)
 print(odd)
+
+# Deleting list items
+my_list = ['e','n','c','y','c','l','o','p','e','d','i','a']
+del my_list[2]
+print(my_list)
+del my_list[1:5]
+print(my_list)
+del my_list
+
