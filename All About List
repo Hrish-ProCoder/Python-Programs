@@ -73,3 +73,10 @@ my_list = ['e','n','c','y','c','l','o','p','e','d','i','a']
 my_list.remove('d')
 # Output without d
 print(my_list)
+
+# Pop Method
+
+print(my_list.pop(1))
+print(my_list)
+print(my_list.pop())
+print(my_list)
