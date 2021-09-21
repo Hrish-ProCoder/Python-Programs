@@ -98,3 +98,7 @@ print(my_list)
 # Reverse Method
 my_list.reverse()
 print(my_list)
+
+# List Comprehension
+pow2 = [2 ** x for x in range(10)]
+print(pow2)
