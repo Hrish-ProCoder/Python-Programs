@@ -94,3 +94,7 @@ print(my_list.count(8))
 # Sort Method
 my_list.sort()
 print(my_list)
+
+# Reverse Method
+my_list.reverse()
+print(my_list)
