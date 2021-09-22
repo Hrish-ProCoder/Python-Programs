@@ -115,3 +115,7 @@ my_list = ['y', 'e', 'l', 'l', 'o', 'w']
 print('o' in my_list)
 print('u' in my_list)
 print('w' not in my_list)
+
+# Iterating Through a List
+for fruit in ['apple','banana','mango']:
+    print("I like",fruit)
