@@ -109,3 +109,9 @@ for x in range(10):
 #More Example
 pow2 = [2 ** x for x in range(10) if x > 5]
 odd = [x for x in range(20) if x % 2 == 1]
+
+# List Membership Test
+my_list = ['y', 'e', 'l', 'l', 'o', 'w']
+print('o' in my_list)
+print('u' in my_list)
+print('w' not in my_list)
