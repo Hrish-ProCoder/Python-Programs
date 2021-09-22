@@ -37,3 +37,5 @@ print(cars)
 
 fruits.extend(cars)
 print(fruits)
+
+print("cherry" in fruits)
