@@ -119,3 +119,6 @@ print('w' not in my_list)
 # Iterating Through a List
 for fruit in ['apple','banana','mango']:
     print("I like",fruit)
+print('o' in my_list)
+my_list.reverse()
+print(fruit)
