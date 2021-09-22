@@ -106,3 +106,6 @@ print(pow2)
 pow2 = []
 for x in range(10):
    pow2.append(2 ** x)
+#More Example
+pow2 = [2 ** x for x in range(10) if x > 5]
+odd = [x for x in range(20) if x % 2 == 1]
