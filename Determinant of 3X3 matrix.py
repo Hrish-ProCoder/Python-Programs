@@ -6,3 +6,5 @@ print("3D matrix")
 print(matrix)
 
 print("DETERMINANTE of the 3 D matrix:")
+
+print(np.linalg.det(mat))
