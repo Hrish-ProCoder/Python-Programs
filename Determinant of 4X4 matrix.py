@@ -1,3 +1,3 @@
 import numpy as np
 from numpy import linalg
-matrix = np.array([[1, 0, 1, 8], [1, 2, 0, 3], [4, 6, 2, 6], [0, 3, 6, 4]])
+mat = np.array([[3, 2, 1, 9], [5, 2, 3, 1], [9, 6, 3, 2], [4, 6, 2, 6]])
